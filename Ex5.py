@@ -1,6 +1,6 @@
-# Exercise 4: Given a list and a value entered via the keyboard,
+# Exercise 5: Given a list and a value entered via the keyboard,
 # determine whether the value exists in the list. If it does,
-# return the index of its first occurrence
+# return the index of its last occurrence
 
 lst =[1,2,3,4,5,6,2,8,4,3,6,5,6,5,7,8,9]
 print(len(lst))
