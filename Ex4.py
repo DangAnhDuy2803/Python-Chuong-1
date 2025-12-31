@@ -10,7 +10,7 @@ position = -1
 for i in range (0,len(lst)):
     if x==lst[i]:
         position = i
-        break #Dừng lại ở vị trí đầu khi tìm thấy số
+        break #Dừng lại ở vị trí đầu khi tìm thấy số nhập vàp
 if position >=0:
     print("The position is: ",position)
 else:
