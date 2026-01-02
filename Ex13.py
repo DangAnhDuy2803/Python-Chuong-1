@@ -8,6 +8,6 @@ lstC =[]
 for x in lstA:
     if x in lstB:
         if x not in lstC:
-
             lstC.append(x)
 print(lstC)
+
