@@ -1,5 +1,4 @@
 # Exercise 12: Given a list of numbers, sort the elements in descending order.
-
 lst = [2,4,2,5,7,1,2,1,8,9,10,2,10,4,3,5]
 print("List: ",lst)
 
@@ -11,3 +10,4 @@ for i in range (0,len(lst)-1):
             lst[j] = temp
 
 print("New list: ",lst)
+
