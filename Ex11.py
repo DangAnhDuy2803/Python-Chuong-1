@@ -5,7 +5,6 @@ print(len(lst))
 print("List: ",lst)
 for i in range (0, len(lst)-1):
     print("Step: ",i)
-
     for j in range (i+1, len(lst)):
         if lst[i] > lst[j]:
             temp = lst[i]
@@ -13,4 +12,5 @@ for i in range (0, len(lst)-1):
             lst[j] = temp
             print("Change: ", lst)
 print("List after sorting: ",lst)
+
 
